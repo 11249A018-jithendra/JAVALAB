@@ -1,3 +1,22 @@
+Aim:
+To write a Java program to check whether a given integer is a perfect number or not.
+
+Algorithm:
+Start the program.
+Import the Scanner class to read input from the user.
+Declare integer variables n and sum, and initialize sum = 0.
+Read an integer n from the user.
+Use a for loop from 1 to n - 1.
+Check whether n is divisible by i using n % i == 0.
+If it is divisible, add i to sum.
+After the loop, check whether sum == n and n > 0.
+If both conditions are true, display “Given number is Perfect”.
+Otherwise, display “Given number is not Perfect”.
+Close the scanner.
+Stop the program.
+
+
+//program:
 import java.util.Scanner;
 public class Perfect {
     public static void main(String[] args) {
@@ -19,3 +38,6 @@ public class Perfect {
         s.close();
     }
 }
+
+//Result:
+Thus, the Java program to check whether a given integer is a perfect number or not was executed successfully.
