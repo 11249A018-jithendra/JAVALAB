@@ -2,17 +2,17 @@
 To write a Java program to sort the given array elements in ascending order using nested for loops and swapping.
 
 //Algorithm:
+Algorithm:
 Start the program.
-Create an interface Exam with the method percent_cal().
-Create a class Student to store the student's name, roll number, and marks in two subjects.
-Define a constructor to initialize the student details.
-Create a display() method to print the student details.
-Create a class Result that extends Student and implements the Exam interface.
-Define the percent_cal() method to calculate and display the percentage of marks.
-In the main() method, create an object of the Result class.
-Display the student details and percentage.
-Stop the program.
-
+Import the Scanner class to read input from the user.
+Read the number of elements to be stored in the array.
+Declare an array of the specified size.
+Read all the elements into the array.
+If the current element is greater than the compared element, swap their values using a temporary variable.
+Repeat the process until all elements are sorted in ascending order.
+Display the sorted array.
+Close the scanner 
+stop the program.
     //program:
 import java.util.Scanner;
 public class AscendingOrder {
@@ -48,4 +48,4 @@ public class AscendingOrder {
 }
 
 //Result:
-Thus, the Java program to display student details and calculate the percentage of marks using an interface was executed successfully.
+Thus, the Java program to sort the elements of an array in ascending order was executed successfully.
