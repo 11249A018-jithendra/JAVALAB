@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to display all possible substrings of a given string and count the total number of substrings.
 
-Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class to read input from the user.
 Read a string from the user.
