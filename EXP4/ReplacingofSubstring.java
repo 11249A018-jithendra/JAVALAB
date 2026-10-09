@@ -1,3 +1,18 @@
+Aim:
+To write a Java program to replace a specified substring in a given string using the replace() method.
+
+Algorithm:
+Start the program.
+Import the Scanner class to read input from the user.
+Read a string from the user.
+Read the substring to be replaced and the new substring.
+Use the replace() method to replace the specified substring with the new substring.
+Store the modified string in the variable replaceString.
+Display the string after replacement.
+Close the scanner.
+Stop the program.
+
+//program:
 import java.util.*;
 public class Replace {
     public static void main(String args[]) {
@@ -12,3 +27,6 @@ public class Replace {
         sc.close();
     }
 }
+
+//Result:
+Thus, the Java program to replace a specified substring in a given string using the replace() method was executed successfully.
