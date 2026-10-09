@@ -1,3 +1,15 @@
+Aim
+To write a Java program to demonstrate single inheritance using College and Department classes.
+
+Algorithm
+Start the program.
+Create a College class to store and display college details.
+Create a Department class that extends College.
+Initialize college and department details using constructors.
+Create an object of Department and display all details.
+Stop the program.
+
+//program:
 class College {
     String collegeName, principalName;
 
@@ -38,3 +50,7 @@ class SingleInherit {
         obj.displayDepartmentDetails();
     }
 }
+
+
+//Result:
+The program successfully demonstrates single inheritance and displays the college and department details.
