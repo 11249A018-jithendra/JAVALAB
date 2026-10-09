@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to perform arithmetic operations such as addition, subtraction, multiplication, division, and modulus using a menu-driven program and a switch statement.
     
-Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class to read input from the user.
 Read two integer numbers.
