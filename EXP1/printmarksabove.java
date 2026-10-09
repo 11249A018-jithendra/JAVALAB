@@ -15,7 +15,7 @@ Stop the program.
 //program:
 
 import java.util.Scanner;
-public class MarksAbvsixty {
+public class printmarksabove {
     public static void main(String args[]) {
         int marks[] = new int[6];
         String name[] = new String[6];
