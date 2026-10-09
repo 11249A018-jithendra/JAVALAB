@@ -1,7 +1,7 @@
-Aim
+//Aim:
 To write a Java program to demonstrate inheritance using a bank account and savings bank account.
 
-Algorithm
+//Algorithm:
 Start the program.
 Create an Account class with methods to credit, debit, and display balance.
 Create an SBAccount class that extends Account and displays the interest rate.
@@ -59,5 +59,5 @@ class AccountDemo {
     }
 }
 
-//Result
+//Result:
 The program successfully demonstrates inheritance and displays the updated account balance and interest rate.
