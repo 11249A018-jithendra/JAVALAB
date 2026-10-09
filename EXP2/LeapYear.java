@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to check whether a given year is a leap year or not using conditional statements.
 
-Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class to read input from the user.
 Read the year from the user.
