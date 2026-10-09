@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to print the multiplication table of a given number using a for loop.
 
-Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class to read input from the user.
 Read an integer no from the user.
