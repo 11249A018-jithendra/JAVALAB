@@ -1,5 +1,6 @@
 //Aim:
 To write a Java program to search for an element in an array using the Binary Search technique.
+    
 //Algorithm:
 Start the program.
 Import the Scanner class to get input from the user.
