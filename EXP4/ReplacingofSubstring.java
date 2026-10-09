@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to replace a specified substring in a given string using the replace() method.
 
-Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class to read input from the user.
 Read a string from the user.
