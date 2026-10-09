@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to find the largest of three integers using the if-else-if statement.
 
-Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class to get input from the user.
 Declare three integer variables x, y, and z.
