@@ -1,7 +1,7 @@
-Aim
+//Aim:
 To write a Java program to demonstrate single inheritance using College and Department classes.
 
-Algorithm
+//Algorithm:
 Start the program.
 Create a College class to store and display college details.
 Create a Department class that extends College.
