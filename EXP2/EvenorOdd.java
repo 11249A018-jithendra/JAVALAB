@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to check whether a given number is even or odd using a switch statement.
 
-Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class to read input from the user.
 Declare an integer variable n.
