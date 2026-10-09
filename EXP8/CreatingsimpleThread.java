@@ -1,3 +1,17 @@
+Aim
+To write a Java program to demonstrate multithreading using yield(), sleep(), and break.
+
+Algorithm
+Start the program.
+Create three threads: A, B, and C.
+Use yield() in thread A to give other threads a chance to execute.
+Use break in thread B to stop its loop when j == 3.
+Use sleep(1500) in thread C to pause execution for 1.5 seconds.
+Start all three threads using start().
+Display the thread outputs.
+Stop the program.
+
+//program:
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -57,3 +71,6 @@ public class CreatingsimpleThread  {
         System.out.println("exit from main thread");
     }
 }
+
+Result:
+The program successfully demonstrates multithreading and the use of yield(), sleep(), and break in Java.
