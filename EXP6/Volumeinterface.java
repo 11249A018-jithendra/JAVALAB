@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program using interfaces to calculate the volume of a cylinder and a sphere.
     
-Algorithm:
+//Algorithm:
 Start the program.
 Declare interfaces Shape and CylinderShape.
 Implement the interfaces in Sphere and Cylinder classes.
@@ -42,5 +42,5 @@ public class Volumeinterface  {
     }
 }
 
-//Result
+//Result:
 The Java program was executed successfully. It calculates and displays the volumes of a cylinder and a sphere using interfaces.
