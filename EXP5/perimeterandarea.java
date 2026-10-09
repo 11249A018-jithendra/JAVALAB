@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to calculate the area and perimeter of a square, circle, and triangle using classes, constructors, and methods.
 
-Algorithm:
+//Algorithm:
 Start the program.
 Create a Square class with a constructor to initialize the side.
 Define methods to calculate the area and perimeter of the square.
