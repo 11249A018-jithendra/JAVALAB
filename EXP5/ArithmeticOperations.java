@@ -1,7 +1,7 @@
-Aim:
+//Aim:
 To write a Java program to perform arithmetic operations such as addition, subtraction, multiplication, and division using separate classes and methods.
 
- Algorithm:
+//Algorithm:
 Start the program.
 Import the Scanner class.
 Create four static inner classes: Add, Sub, Mul, and Div.
