@@ -17,7 +17,7 @@ Stop the program.
     
 //program:
 import java.util.Scanner;
-public class ArithDemo {
+public class ArithmeticOperators {
     static class Add {
         void addop(int a, int b) {
             System.out.println("Add: " + (a + b));
