@@ -58,7 +58,7 @@ class Triangle {
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
 }
-public class Main {
+public class perimeterandarea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the side of the Square: ");
