@@ -17,7 +17,7 @@ Stop the program.
 
 //program:
 import java.util.Scanner;
-class ReverseNumber {
+class Reversenumber {
     public static void main(String args[]) {
         int n, reverse = 0;
         Scanner in = new Scanner(System.in);
