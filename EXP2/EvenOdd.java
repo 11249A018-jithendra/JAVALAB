@@ -15,7 +15,7 @@ Stop the program.
 
 //program:
 import java.util.*;
-class EvenOddSwitch {
+class EvenOdd {
     public static void main(String args[]) {
         int n;
         Scanner s = new Scanner(System.in);
