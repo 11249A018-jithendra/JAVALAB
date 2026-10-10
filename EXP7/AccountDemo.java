@@ -12,6 +12,7 @@ Stop the program.
 
 
 //program:
+
 class Account {
     int accountNumber, balance;
 
