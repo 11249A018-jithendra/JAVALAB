@@ -18,7 +18,7 @@ Stop the program.
 
 //program:
 import java.util.Scanner;
-public class Perfect {
+public class Perfectnumber {
     public static void main(String[] args) {
         int n, sum = 0;
         Scanner s = new Scanner(System.in);
