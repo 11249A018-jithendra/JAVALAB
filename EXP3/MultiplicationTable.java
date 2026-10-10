@@ -13,7 +13,7 @@ Close the scanner.
 Stop the program.
 
 //program:
-import java.utilScanner;
+import java.util.Scanner;
 public class MulTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
