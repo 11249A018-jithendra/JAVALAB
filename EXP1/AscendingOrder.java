@@ -48,5 +48,11 @@ public class AscendingOrder {
     }
 }
 
+//output:
+Enter no. of elements you want in array: 5
+Enter all the elements:
+45 12 78 23 9
+Ascending Order: 9,12,23,45,78
+
 //Result:
 Thus, the Java program to sort the elements of an array in ascending order was executed successfully.
