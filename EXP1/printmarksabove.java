@@ -36,6 +36,19 @@ public class printmarksabove {
         scanner.close();
     }
 }
+//output:
+Enter Name of Student and Marks of Subject 1: Arun 85
+Enter Name of Student and Marks of Subject 2: Priya 56
+Enter Name of Student and Marks of Subject 3: Ravi 72
+Enter Name of Student and Marks of Subject 4: Divya 45
+Enter Name of Student and Marks of Subject 5: Kiran 60
+Enter Name of Student and Marks of Subject 6: Meena 91
+
+Students who scored 60 or above:
+Arun 85
+Ravi 72
+Kiran 60
+Meena 91
 
 //Result:
 Thus, the Java program to display the names and marks of students who scored 60 or above was executed successfully.
