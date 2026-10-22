@@ -40,5 +40,18 @@ class SubstringsOfAString {
     }
 }
 
+//output:
+Enter a string to print all its substrings:
+abc
+Substrings of "abc" are:
+a
+ab
+abc
+b
+bc
+c
+No of substrings present are: 6
+    
+
 //Result:
 Thus, the Java program to display all possible substrings of a given string and count the total number of substrings was executed successfully.
