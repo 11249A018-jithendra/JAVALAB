@@ -72,5 +72,25 @@ public class CreatingsimpleThread  {
     }
 }
 
+//output:
+Start thread A
+exit from main thread
+from thread A i=1
+from thread B j=1
+thread C k=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+from thread B j=2
+from thread B j=3
+exit from B
+thread C k=2
+thread C k=3
+thread C k=4
+thread C k=5
+exit from C
+
 //Result:
 The program successfully demonstrates multithreading and the use of yield(), sleep(), and break in Java.
