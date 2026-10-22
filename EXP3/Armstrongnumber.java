@@ -41,5 +41,12 @@ public class Armstrong {
     }
 }
 
+//output:
+Enter any Positive Number: 153
+Armstrong Number
+
+Enter any Positive Number: 123
+Not an Armstrong Number
+
 //Result:
 Thus, the Java program to check whether a given positive number is an Armstrong number or not was executed successfully.
