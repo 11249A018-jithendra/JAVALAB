@@ -60,5 +60,10 @@ class AccountDemo {
     }
 }
 
+//output:
+Balance = 6000
+Interest Rate = 6.5
+
+
 //Result:
 The program successfully demonstrates inheritance and displays the updated account balance and interest rate.
