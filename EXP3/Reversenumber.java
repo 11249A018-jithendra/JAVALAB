@@ -32,5 +32,9 @@ class Reversenumber {
     }
 }
 
+//output:
+Enter an integer to reverse: 1234
+Reverse of the number is 4321
+
 //Result:
 Thus, the Java program to reverse a given integer using a while loop was executed successfully.
