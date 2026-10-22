@@ -84,6 +84,19 @@ public class perimeterandarea {
     }
 }
 
+//output:
+Enter the side of the Square: 4
+Perimeter of Square is 16
+Area of Square is 16
+Enter the radius of the Circle: 3
+Perimeter of Circle is 18.84
+Area of Circle is 28.259999999999998
+Enter the Side1 of the Triangle: 3
+Enter the Side2 of the Triangle: 2
+Enter the Side3 of the Triangle: 3
+Perimeter of Triangle is 8
+Area of Triangle is 2.8284271247461903
+
 
 //Result:
 Thus, the Java program to calculate the area and perimeter of a square, circle, and triangle using classes, constructors, and methods was executed successfully.
