@@ -16,49 +16,35 @@ Stop the program.
 
 //program:
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
-public class carddemo extends JFrame implements ActionListener {
+public class insertdemo extends JFrame {
 
-    JButton b1, b2, b3;
-    JPanel buttonPanel;
-    CardLayout buttonCardLayout;
+    public insertdemo() {
+        setBackground(Color.cyan);
+        setLayout(new BorderLayout());
 
-    public carddemo() {
-        buttonPanel = new JPanel();
+        add(new JButton("This is across the top"), BorderLayout.NORTH);
+        add(new JButton("The footer message might go here"), BorderLayout.SOUTH);
+        add(new JButton("RIGHT"), BorderLayout.EAST);
+        add(new JButton("LEFT"), BorderLayout.WEST);
 
-        buttonCardLayout = new CardLayout();
-        buttonPanel.setLayout(buttonCardLayout);
+        String msg = "The reasonable man adapts\n\n";
+        add(new JTextArea(msg), BorderLayout.CENTER);
 
-        b1 = new JButton("First Button");
-        b1.addActionListener(this);
-        buttonPanel.add(b1, "first");
+        getRootPane().setBorder(
+            BorderFactory.createEmptyBorder(10, 10, 10, 10)
+        );
 
-        b2 = new JButton("Second Button");
-        b2.addActionListener(this);
-        buttonPanel.add(b2, "second");
-
-        b3 = new JButton("Third Button");
-        b3.addActionListener(this);
-        buttonPanel.add(b3, "third");
-
-        add(buttonPanel);
-
-        setTitle("CardLayout Demo");
-        setSize(250, 150);
+        setTitle("Insert Demo");
+        setSize(400, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        buttonCardLayout.next(buttonPanel);
-    }
-
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            carddemo demo = new carddemo();
+            insertdemo demo = new insertdemo();
             demo.setVisible(true);
         });
     }
