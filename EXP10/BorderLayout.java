@@ -16,31 +16,52 @@ Stop the program.
 
 //program:
 import java.awt.*;
-import java.applet.*;
+import java.awt.event.*;
+import javax.swing.*;
 
- /*
-<applet code="insertdemo" width=400 height=200>
-</applet>
-*/
+public class carddemo extends JFrame implements ActionListener {
 
-public class insertdemo extends Applet {
-    public void init() {
-        setBackground(Color.cyan);
-        setLayout(new BorderLayout());
+    JButton b1, b2, b3;
+    JPanel buttonPanel;
+    CardLayout buttonCardLayout;
 
-        add(new Button("this is cross the top"), BorderLayout.NORTH);
-        add(new Button("the footer messsage might go here"), BorderLayout.SOUTH);
-        add(new Button("RIGHT"), BorderLayout.EAST);
-        add(new Button("LEFT"), BorderLayout.WEST);
+    public carddemo() {
+        buttonPanel = new JPanel();
 
-        String msg = "the reasonable man adapts\n\n";
-        add(new TextArea(msg), BorderLayout.CENTER);
+        buttonCardLayout = new CardLayout();
+        buttonPanel.setLayout(buttonCardLayout);
+
+        b1 = new JButton("First Button");
+        b1.addActionListener(this);
+        buttonPanel.add(b1, "first");
+
+        b2 = new JButton("Second Button");
+        b2.addActionListener(this);
+        buttonPanel.add(b2, "second");
+
+        b3 = new JButton("Third Button");
+        b3.addActionListener(this);
+        buttonPanel.add(b3, "third");
+
+        add(buttonPanel);
+
+        setTitle("CardLayout Demo");
+        setSize(250, 150);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
     }
 
-    public Insets getInsets() {
-        return new Insets(10, 10, 10, 10);
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        buttonCardLayout.next(buttonPanel);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            carddemo demo = new carddemo();
+            demo.setVisible(true);
+        });
     }
 }
-
 //Result:
 Thus, the Java applet program demonstrating the BorderLayout layout manager was written successfully. The buttons are displayed in the North, South, East, and West regions, and the text area is displayed in the Center region with a cyan background.
