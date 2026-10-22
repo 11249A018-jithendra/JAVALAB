@@ -51,5 +51,11 @@ public class ArithmeticOperators {
     }
 }
 
+//output:
+Add: 30
+Sub: 10
+Mul: 200
+Div: 2
+
 //Result:
 Thus, the Java program to perform addition, subtraction, multiplication, and division using separate classes and methods was executed successfully.
