@@ -28,5 +28,13 @@ public class Replace {
     }
 }
 
+//output:
+Enter a string:
+I like Java
+Enter the variable to be replaced and the variable that replaces it:
+Java
+oops
+After replacement: I like oops
+
 //Result:
 Thus, the Java program to replace a specified substring in a given string using the replace() method was executed successfully.
