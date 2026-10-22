@@ -39,5 +39,12 @@ public class Perfectnumber {
     }
 }
 
+//output:
+Enter any integer you want to check: 6
+Given number is Perfect
+
+Enter any integer you want to check: 10
+Given number is not Perfect
+
 //Result:
 Thus, the Java program to check whether a given integer is a perfect number or not was executed successfully.
