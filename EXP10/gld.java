@@ -16,20 +16,24 @@ Stop the program
 
 //program:
 import java.awt.*;
-import java.applet.*;
-public class gld extends Applet {
-    public void init() {
+import javax.swing.*;
+
+public class gld extends JFrame {
+
+    public gld() {
         setLayout(new GridLayout(5, 2));
-        Button b1 = new Button("A");
-        Button b2 = new Button("B");
-        Button b3 = new Button("C");
-        Button b4 = new Button("D");
-        Button b5 = new Button("E");
-        Button b6 = new Button("F");
-        Button b7 = new Button("G");
-        Button b8 = new Button("H");
-        Button b9 = new Button("I");
-        Button b10 = new Button("J");
+
+        JButton b1 = new JButton("A");
+        JButton b2 = new JButton("B");
+        JButton b3 = new JButton("C");
+        JButton b4 = new JButton("D");
+        JButton b5 = new JButton("E");
+        JButton b6 = new JButton("F");
+        JButton b7 = new JButton("G");
+        JButton b8 = new JButton("H");
+        JButton b9 = new JButton("I");
+        JButton b10 = new JButton("J");
+
         add(b1);
         add(b2);
         add(b3);
@@ -40,9 +44,22 @@ public class gld extends Applet {
         add(b8);
         add(b9);
         add(b10);
+
+        getRootPane().setBorder(
+            BorderFactory.createEmptyBorder(20, 20, 20, 20)
+        );
+
+        setTitle("GridLayout Demo");
+        setSize(300, 300);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
     }
-    public Insets getInsets() {
-        return new Insets(20, 20, 20, 20);
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            gld demo = new gld();
+            demo.setVisible(true);
+        });
     }
 }
 
