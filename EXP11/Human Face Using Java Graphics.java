@@ -50,10 +50,10 @@ public class HumanFaceUsingApplet extends JPanel {
 }
 
 
-Sample Output:
+//Sample Output:
 A window titled "Human Face" appears with a face containing
 a head, two eyes, pupils, a nose, a mouth, and two ears.
 
-Result:
+//Result:
 Thus, the Java program to draw a human face using Swing
 and AWT graphics methods was written and executed successfully.
