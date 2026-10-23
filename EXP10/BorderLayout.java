@@ -49,5 +49,15 @@ public class insertdemo extends JFrame {
         });
     }
 }
+
+//output:
+Output explanation
+North: Displays the button “This is across the top”.
+South: Displays the button “The footer message might go here”.
+East: Displays the button “RIGHT”.
+West: Displays the button “LEFT”.
+Center: Displays a text area containing “The reasonable man adapts”.
+
+
 //Result:
 Thus, the Java applet program demonstrating the BorderLayout layout manager was written successfully. The buttons are displayed in the North, South, East, and West regions, and the text area is displayed in the Center region with a cyan background.
