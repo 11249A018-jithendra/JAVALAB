@@ -66,5 +66,12 @@ public class carddemo extends JFrame implements ActionListener {
     }
 }
 
+//output:
+Sequence of output:
+Initially: First Button
+After clicking: Second Button
+After clicking again: Third Button
+After clicking again: First Button (the sequence repeats)
+
 //Result:
 Thus, the Java applet program demonstrating the CardLayout layout manager was executed successfully. It displays one button at a time and switches to the next button whenever the currently displayed button is clicked.
