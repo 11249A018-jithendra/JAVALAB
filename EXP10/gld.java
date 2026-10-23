@@ -63,5 +63,13 @@ public class gld extends JFrame {
     }
 }
 
+//output:
+Output layout:
+Row 1: A, B
+Row 2: C, D
+Row 3: E, F
+Row 4: G, H
+Row 5: I, J
+
 //Result:
 Thus, the Java applet program demonstrating the GridLayout layout manager was written and executed successfully.
